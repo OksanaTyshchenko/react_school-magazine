@@ -1,0 +1,15 @@
+.MarkInput__wrapper {
+  display: flex;
+  gap: 3px;
+  flex-direction: column;
+}
+
+.MarkInput__input {
+  width: 75%;
+  display: block;
+}
+
+.MarkInput__error {
+  font-size: 10px;
+  color: red;
+}

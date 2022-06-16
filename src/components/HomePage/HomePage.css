@@ -1,0 +1,75 @@
+.Home__content {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.Home__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Home__title2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.Home__title1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.Home__label {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.Home__input {
+  margin-right: 5px;
+}
+
+.Home__school {
+  text-align: center;
+}
+
+.Home__inputSchool {
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.Home__label--city {
+  display: block;
+  margin-top: 20px;
+}
+
+.Home__input--city {
+  width: 75%;
+  margin-left: 5px;
+}
+
+.Home__input--year {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.Home__text {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Home__button {
+  margin: 0 auto;
+}
+
+.Home__info {
+  text-align: center;
+  font-size: 24px;
+  margin: 5px;
+}

@@ -1,0 +1,25 @@
+.MarksList__content {
+  margin: 20px;
+}
+
+.MarksList__Select {
+  margin-bottom: 30px;
+}
+
+.MarksList__wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.MarksList__input {
+  width: 75%;
+}
+
+.MarksList__buttonSave {
+  border: transparent;
+  background-color: #fff;
+}
+
+.MarksList__buttonSave:hover {
+  cursor: pointer;
+}
