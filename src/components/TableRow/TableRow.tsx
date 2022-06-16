@@ -74,12 +74,25 @@ export const TableRow = () => {
       </td>
 
       <td>
-        <input
-          type="text"
-          name="sex"
-          value={row.sex}
-          onChange={handleChange}
-        />
+        <label className="Table__radio">
+          <input
+            type="radio"
+            value="ч"
+            onChange={() => setRow({...row, sex: 'ч'})}
+            checked={row.sex === 'ч'}
+          />
+           ч
+        </label>
+
+        <label className="Table__radio">
+          <input
+            type="radio"
+            value="ж"
+            onChange={() => setRow({...row, sex: 'ж'})}
+            checked={row.sex === 'ж'}
+          />
+           ж
+        </label>
       </td>
 
       <td>

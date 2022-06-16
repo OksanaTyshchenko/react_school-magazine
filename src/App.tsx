@@ -28,7 +28,7 @@ function App() {
     }
 
     response();
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className="App">

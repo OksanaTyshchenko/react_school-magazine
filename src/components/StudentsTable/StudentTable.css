@@ -1,3 +1,8 @@
 .Table {
   margin: 20px;
+  max-width: 1200px;
+}
+
+.Table__radio {
+  display: block;
 }
