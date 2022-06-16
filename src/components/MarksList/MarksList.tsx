@@ -58,9 +58,6 @@ export const MarksList = () => {
     (date) => date.subject === subject
   );
 
-  console.log('RENDER: ', marks);
-
-
   return (
     <div className="MarksList__content">
       <div className="select is-primary MarksList__Select">
